@@ -19,6 +19,30 @@ section{
     padding-top: 6rem;
 }
 
+/* go top button */
+.go-top-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50px; 
+    width: 50px; 
+    background: var(--secondarycolor);
+    border: 3px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+    z-index: 9999; 
+}
+
+.go-top-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+
 /* navbar start */
 .nav-link.active{
     color: var(--acsentcolor) !important;
@@ -34,6 +58,10 @@ section{
 #hero{
     color: #ffff;
     min-height: 100vh;
+}
+
+.hallo {
+    padding-top: 1rem;
 }
 
 /* button */
@@ -57,6 +85,11 @@ section{
   
 }
 
+.btn-custom1 a {
+    text-decoration: none;
+  }
+  
+
 .cv{
     color: #ffff;
     cursor: pointer;
@@ -77,6 +110,7 @@ section{
     font-size: 1rem; 
 }
 /* sosmed ikon end */
+
 
 /* about start */
 hr{
@@ -149,6 +183,8 @@ hr{
     background-color: #e87d00;
   }
 /* contact end */
+
+
 
 
 
